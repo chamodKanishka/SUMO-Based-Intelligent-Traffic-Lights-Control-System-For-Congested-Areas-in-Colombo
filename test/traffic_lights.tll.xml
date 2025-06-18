@@ -1,0 +1,42 @@
+<additionals>
+    <tlLogic id="206595627" type="actuated" programID="0" offset="0">
+        <phase duration="31" state="rrrrgGggrrrrgGGggGrGr" minDur="7" maxDur="50"/>
+        <phase duration="5"  state="rrrrgGggrrrrgGGggrrrr"/>
+        <phase duration="4"  state="rrrryyggrrrryyyggrrrr"/>
+        <phase duration="6"  state="rrrrrrGGrrrrrrrGGrrrr" minDur="7" maxDur="50"/>
+        <phase duration="4"  state="rrrrrryyrrrrrrryyrrrr"/>
+        <phase duration="31" state="gGggrrrrgGggrrrrrrGrG" minDur="5" maxDur="50"/>
+        <phase duration="5"  state="gGggrrrrgGggrrrrrrrrr"/>
+        <phase duration="4"  state="yyyyrrrryyyyrrrrrrrrr"/>
+    </tlLogic>
+    <tlLogic id="cluster_127658071_3185210184_3185210187" type="actuated" programID="0" offset="0">
+        <phase duration="35" state="rrrrGGGggrrrrGGGggr" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="rrrryyyyyrrrryyyyyr"/>
+        <phase duration="2"  state="rrrrrrrrrrrrrrrrrrr"/>
+        <phase duration="35" state="GGggrrrrrGGggrrrrrr" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="yyyyrrrrryyyyrrrrrr"/>
+        <phase duration="2"  state="rrrrrrrrrrrrrrrrrrr"/>
+        <phase duration="5"  state="rrrrrrrrrrrrrrrrrrG"/>
+        <phase duration="5"  state="rrrrrrrrrrrrrrrrrrr"/>
+    </tlLogic>
+    <tlLogic id="joinedS_2066330708_3150421787_3150421800_635117662" type="actuated" programID="0" offset="0">
+        <phase duration="41" state="rrrGGGGGGGrrrrrrrGGGrrrrGGGG" minDur="7" maxDur="50"/>
+        <phase duration="4"  state="rrryyyyyyyrrrrrrryyyrrrryyyy"/>
+        <phase duration="41" state="GGGrrrrrrrGGGGGGGrrrGGGGrrrr" minDur="7" maxDur="50"/>
+        <phase duration="4"  state="yyyrrrrrrryyyyyyyrrryyyyrrrr"/>
+    </tlLogic>
+    <tlLogic id="joinedS_3150402309_662901136_cluster_4793209901_662901137" type="actuated" programID="0" offset="0">
+        <phase duration="12" state="GGGrrrrGGGGGrrrrrrrrrrrrrGGGgrG" minDur="7" maxDur="50"/>
+        <phase duration="5"  state="GGGrrrrGGGGGrrrrrrrrrrrrrGGGgrr"/>
+        <phase duration="4"  state="yyyrrrryyyyyrrrrrrrrrrrrrGGGgrr"/>
+        <phase duration="14" state="rrrGGGGrrrrrGGGGGrrrrrrrrGGGgrG" minDur="7" maxDur="50"/>
+        <phase duration="5"  state="rrrGGGGrrrrrGGGGGrrrrrrrrGGGgrr"/>
+        <phase duration="4"  state="rrrGGGGrrrrryyyyyrrrrrrrrGGggrr"/>
+        <phase duration="19" state="rrrGGGGGGGGGrrrrrGGGrrrrrGGggrr" minDur="7" maxDur="50"/>
+        <phase duration="4"  state="rrrGGGGGGGGGrrrrryyyrrrrryyyyrr"/>
+        <phase duration="14" state="rrrGGGGGGGGGrrrrrrrrGGGGgrrrrGG" minDur="7" maxDur="50"/>
+        <phase duration="5"  state="rrrGGGGGGGGGrrrrrrrrGGGGgrrrrrr"/>
+        <phase duration="4"  state="rrryyyyGGGGGrrrrrrrryyyyyrrrrrr"/>
+    </tlLogic>
+
+</additionals>

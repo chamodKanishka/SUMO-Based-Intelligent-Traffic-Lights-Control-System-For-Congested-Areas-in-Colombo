@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-01-09 13:51:48 by Eclipse SUMO sumo Version 1.20.0
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="../../../../../../../2024-12-20-13-42-31/osm.net.xml.gz"/>
+        <route-files value="../../../../../../../2024-12-20-13-42-31/osm.bus.trips.xml,../../../../../../../2024-12-20-13-42-31/osm.motorcycle.trips.xml,../../../../../../../2024-12-20-13-42-31/osm.passenger.trips.xml,../../../../../../../2024-12-20-13-42-31/osm.pedestrian.rou.xml,../../../../../../../2024-12-20-13-42-31/osm.truck.trips.xml"/>
+        <additional-files value="../../../../../../../2024-12-20-13-42-31/osm.poly.xml.gz"/>
+    </input>
+
+    <processing>
+        <ignore-route-errors value="true"/>
+        <tls.actuated.jam-threshold value="30"/>
+    </processing>
+
+    <routing>
+        <device.rerouting.adaptation-steps value="18"/>
+        <device.rerouting.adaptation-interval value="10"/>
+    </routing>
+
+    <report>
+        <verbose value="true"/>
+        <duration-log.statistics value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <gui_only>
+        <gui-settings-file value="../../../../../../../2024-12-20-13-42-31/osm.view.xml"/>
+    </gui_only>
+
+</configuration>

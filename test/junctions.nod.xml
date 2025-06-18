@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-01-09 13:52:45 by Eclipse SUMO netedit Version 1.20.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/neteditConfiguration.xsd">
+
+    <input>
+        <sumocfg-file value="/Users/chamodkanishka/Library/CloudStorage/OneDrive-kcg.ac.jp/MP2/MP2/Maps/test/test.sumocfg"/>
+        <additional-files value="/Users/chamodkanishka/Library/CloudStorage/OneDrive-kcg.ac.jp/MP2/MP2/Maps/test/../../../../../../../2024-12-20-13-42-31/osm.poly.xml.gz"/>
+        <route-files value="/Users/chamodkanishka/Library/CloudStorage/OneDrive-kcg.ac.jp/MP2/MP2/Maps/test/../../../../../../../2024-12-20-13-42-31/osm.bus.trips.xml,/Users/chamodkanishka/Library/CloudStorage/OneDrive-kcg.ac.jp/MP2/MP2/Maps/test/../../../../../../../2024-12-20-13-42-31/osm.motorcycle.trips.xml,/Users/chamodkanishka/Library/CloudStorage/OneDrive-kcg.ac.jp/MP2/MP2/Maps/test/../../../../../../../2024-12-20-13-42-31/osm.passenger.trips.xml,/Users/chamodkanishka/Library/CloudStorage/OneDrive-kcg.ac.jp/MP2/MP2/Maps/test/../../../../../../../2024-12-20-13-42-31/osm.pedestrian.rou.xml,/Users/chamodkanishka/Library/CloudStorage/OneDrive-kcg.ac.jp/MP2/MP2/Maps/test/../../../../../../../2024-12-20-13-42-31/osm.truck.trips.xml"/>
+        <sumo-net-file value="/Users/chamodkanishka/Library/CloudStorage/OneDrive-kcg.ac.jp/MP2/MP2/Maps/test/network.net.xml"/>
+    </input>
+
+    <output>
+        <tls-file value="/Users/chamodkanishka/Library/CloudStorage/OneDrive-kcg.ac.jp/MP2/MP2/Maps/test/traffic_lights.tll.xml"/>
+        <edgetypes-file value="/Users/chamodkanishka/Library/CloudStorage/OneDrive-kcg.ac.jp/MP2/MP2/Maps/test/edge_types.typ.xml"/>
+        <output.street-names value="true"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="1"/>
+    </processing>
+
+    <junctions>
+        <no-internal-links value="false"/>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.50"/>
+        <rectangular-lane-cut value="0"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="1"/>
+    </pedestrian>
+
+    <netedit>
+        <ignore.routeelements value="false"/>
+    </netedit>
+
+</configuration>
+-->
+
+<nodes version="1.20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/nodes_file.xsd">
+</nodes>
